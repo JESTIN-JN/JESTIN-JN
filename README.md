@@ -1,27 +1,84 @@
-# ABOUT ME:
-Civil Engineer who thinks like a designer<br>Currently doing structural research at CSIR-SERC, Chennai.<br><br>Four years of ETABS, Revit, and AutoCAD by day. <br>Figma and SketchUp are used when the numbers need to look <br>like something.<br><br>Interned on active construction sites, inside research labs, <br>and inside brand studios. same curiosity, different rooms.<br><br>I write about the gap between how engineers think <br>and how the world sees them. A few thousand people read it.<br>
+<div style={{
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'flex-start',
+  width: '100%',
+  height: '100%',
+  background: 'linear-gradient(135deg, #0a0a0f 0%, #0d0d1a 50%, #0a0f0a 100%)',
+  padding: '48px 56px',
+  position: 'relative',
+  overflow: 'hidden',
+}}>
+  <style>{`
+    @keyframes shimmer {
+      0% { opacity: 0.3; transform: translateX(-10px); }
+      50% { opacity: 0.7; }
+      100% { opacity: 0.3; transform: translateX(10px); }
+    }
+    @keyframes fadeUp {
+      0% { opacity: 0; transform: translateY(12px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    #line1 { animation: fadeUp 0.6s ease forwards; }
+    #line2 { animation: fadeUp 0.6s 0.15s ease both; }
+    #accent { animation: shimmer 3s ease-in-out infinite; }
+  `}</style>
 
+  {/* Decorative orb top-right */}
+  <div id="accent" style={{
+    position: 'absolute',
+    top: -60,
+    right: -60,
+    width: 220,
+    height: 220,
+    borderRadius: '50%',
+    background: 'radial-gradient(circle, rgba(120,255,120,0.12) 0%, rgba(80,200,80,0.04) 60%, transparent 100%)',
+  }} />
 
-## SOCIALS:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/https://www.behance.net/jestinajn) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/__jestin_jn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/jestinanjel) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jestina.23civil@kongu.edu) 
+  {/* Thin accent line */}
+  <div style={{
+    width: 40,
+    height: 2,
+    background: 'rgba(160,255,160,0.6)',
+    marginBottom: 24,
+  }} />
 
-# TECH STACK:
-![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-# GITHUB STATS:
-![](https://github-readme-stats.shion.dev/api?username=JESTIN-JN&theme=buefy&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=JESTIN-JN&theme=buefy&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=JESTIN-JN&theme=buefy&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+  {/* Name */}
+  <div id="line1" style={{
+    fontSize: 52,
+    fontWeight: 700,
+    color: '#f0f0f0',
+    letterSpacing: '-1.5px',
+    lineHeight: 1.1,
+    marginBottom: 12,
+    fontFamily: 'Inter',
+  }}>
+    JESTIN JN
+  </div>
 
-## GITHUB TROPHIES
-![](https://github-profile-trophy.vercel.app/?username=JESTIN-JN&theme=neon&no-frame=false&no-bg=false&margin-w=4)
+  {/* Role line */}
+  <div id="line2" style={{
+    fontSize: 15,
+    color: 'rgba(255,255,255,0.4)',
+    letterSpacing: '3px',
+    textTransform: 'uppercase',
+    fontFamily: 'Inter',
+    fontWeight: 400,
+  }}>
+    Civil Engineer · Designer · Writer
+  </div>
 
-### RANDOM DEV QUOTE
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
-
-### TOP CONTRIBUTED REPO
-![](https://github-contributor-stats.vercel.app/api?username=JESTIN-JN&limit=5&theme=default&combine_all_yearly_contributions=true)
-
----
-[![](https://komarev.com/ghpvc/?username=JESTIN-JN&icon=1&color=1)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+  {/* Bottom tag */}
+  <div style={{
+    position: 'absolute',
+    bottom: 32,
+    right: 56,
+    fontSize: 11,
+    color: 'rgba(255,255,255,0.18)',
+    letterSpacing: '2px',
+    fontFamily: 'Inter',
+  }}>
+    CSIR-SERC · Chennai
+  </div>
+</div>
